@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "username": "jeremiah",
+      "email": "jeremiah@me.com",
+      "password": "password",
+      "id": 1
+    },
+    {
+      "username": "jack",
+      "email": "jack@me.com",
+      "password": "password",
+      "id": 2
+    }
+  ],
+  "threads": [
+    {
+      "title": "The Who is the greatest band ever!",
+      "message": "Ever!",
+      "threadAuthorName": "jeremiah",
+      "threadAuthorId": 1,
+      "timeStamp": 1538448573183,
+      "id": 1
+    }
+  ],
+  "posts": [
+    {
+      "message": "I agree!",
+      "postAuthorName": "jeremiah",
+      "postAuthorId": 1,
+      "threadId": "1",
+      "timeStamp": 1538449456271,
+      "oldMessage": "",
+      "id": 1,
+      "threadAuthorName": "jeremiah",
+      "threadTitle": "The Who is the greatest band ever!",
+      "threadMessage": "Ever!"
+    },
+    {
+      "message": "Test!",
+      "postAuthorName": "jeremiah",
+      "postAuthorId": 1,
+      "threadId": "1",
+      "timeStamp": 1538451519101,
+      "oldMessage": "",
+      "threadAuthorName": "jeremiah",
+      "threadTitle": "The Who is the greatest band ever!",
+      "threadMessage": "Ever!",
+      "id": 4
+    }
+  ],
+  "followThreads": []
+}
